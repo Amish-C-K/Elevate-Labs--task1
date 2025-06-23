@@ -87,4 +87,11 @@ Live packet capture on interface eth0 during the scan:
 | 2869          | UPnP            | May expose internal devices to external networks    |
 | All Closed    | —               | Indicates host is hardened or behind a firewall     |
 
+---
+
+### 📁 Files
+>> local_network_scan.txt – Text Nmap output
+>> local_network_scan.xml – XML-formatted output
+>> scan_results.html 
+>> Screenshots folder: /screenshots/
 
