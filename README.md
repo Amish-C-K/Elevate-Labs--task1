@@ -33,7 +33,7 @@ Follow the installation instructions provided on the website. On Linux, you migh
 ```bash
 ifconfig
 ```
-![local ip range](https://github.com/Amish-C-K/Elevate-Labs--task1/blob/main/images/t1-1.png)
+![local ip range](https://github.com/Amish-C-K/Elevate-Labs--task1/blob/main/images/t1-2.png)
 
 >> IP: 192.168.5.134
 
@@ -54,7 +54,7 @@ Then coonverting it to html format
 ```bash
 xsltproc Desktop/local_network_scan.xml -o scan_results.html
 ```
-![nmap result](https://github.com/Amish-C-K/Elevate-Labs--task1/blob/main/images/t1-1.png)
+![nmap result](https://github.com/Amish-C-K/Elevate-Labs--task1/blob/main/images/t1-3.png)
 
 ### Result
 | IP Address      | Status | MAC Address         | Open/Filtered Ports                      |
@@ -70,7 +70,8 @@ Live packet capture on interface eth0 during the scan:
 -- Captured ARP requests
 
 -- TCP SYN packets to discovered hosts
-![WireShark Captures](https://github.com/Amish-C-K/Elevate-Labs--task1/blob/main/images/t1-1.png)
+
+![WireShark Captures](https://github.com/Amish-C-K/Elevate-Labs--task1/blob/main/images/t1-4.png)
 
 ### ⚠️Risk Analysis
 | Port          | Service         | Risk                                                |
