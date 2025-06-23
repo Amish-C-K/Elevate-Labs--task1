@@ -28,6 +28,8 @@ Visit the official Nmap website and download the installer package that’s appr
 
 Follow the installation instructions provided on the website. On Linux, you might install Nmap via your package manager (e.g., sudo apt-get install nmap on Debian/Ubuntu).
 
+---
+
 ### 2. Local IP Range Discovery
 #### Command used:
 ```bash
@@ -40,6 +42,8 @@ ifconfig
 >> Subnet: /24
 
 >> Range: 192.168.5.0/24
+
+---
 
 ### 3. TCP SYN Scan
 #### Command used:
@@ -63,6 +67,8 @@ xsltproc Desktop/local_network_scan.xml -o scan_results.html
 | `192.168.5.2`   | Up     | 00:50:56\:EE:15\:CA | 53 (filtered)                            |
 | `192.168.5.254` | Up     | 00:50:56\:F6:78:39  | All 1000 ports filtered                  |
 | `192.168.5.134` | Self   | 00:0c:29:60\:ca:85  | All 1000 ports closed                    |
+
+---
 
 ### 5. Wireshark Capture
 Live packet capture on interface eth0 during the scan:
