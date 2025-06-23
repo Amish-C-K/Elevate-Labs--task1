@@ -83,7 +83,7 @@ Live packet capture on interface eth0 during the scan:
 | Port          | Service         | Risk                                                |
 | ------------- | --------------- | --------------------------------------------------- |
 | 135, 139, 445 | Windows RPC/SMB | High risk of exploits (e.g., EternalBlue, ransomware, lateral movement).; risk of RCE or lateral movement |
-| 53            | DNS             | Can be used for exfiltration or DNS attacks         |
+| 53            | DNS             | Can be used for exfiltration or DNS attacks,cache poisoning, or amplification attacks if misconfigured.         |
 | 2869          | UPnP            | May expose internal devices to external networks    |
 | All Closed    | —               | Indicates host is hardened or behind a firewall     |
 
