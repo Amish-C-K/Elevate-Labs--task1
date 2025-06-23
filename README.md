@@ -18,3 +18,17 @@ To discover open ports and active devices within the local network in order to u
 ```bash
 apt list nmap
 nmap -V
+```
+![already installed](https://github.com.com/Amish-C-K/images/t1-1.png)
+
+Download and Install:
+
+Visit the official Nmap website and download the installer package that’s appropriate for your operating system (Windows, macOS, or Linux).
+
+Follow the installation instructions provided on the website. On Linux, you might install Nmap via your package manager (e.g., sudo apt-get install nmap on Debian/Ubuntu).
+
+### 2. Local IP Range Discovery
+```bash
+ifconfig
+```
+![local ip range](https://github.com.com/Amish-C-K/images/t1-2.png)
