@@ -50,7 +50,7 @@ nmap -sS 192.168.5.0/24 -oN local_network_scan.txt
  ```bash
 nmap -sS 192.168.5.0/24 -oX local_network_scan.xml
 ```
-Then coonverting it to html format
+Then converting it to html format
 ```bash
 xsltproc Desktop/local_network_scan.xml -o scan_results.html
 ```
