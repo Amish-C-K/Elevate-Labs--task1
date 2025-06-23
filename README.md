@@ -91,7 +91,10 @@ Live packet capture on interface eth0 during the scan:
 
 ### 📁 Files
 >> local_network_scan.txt – Text Nmap output
+>> 
 >> local_network_scan.xml – XML-formatted output
->> scan_results.html 
+>> 
+>> scan_results.html
+>> 
 >> Screenshots folder: /screenshots/
 
